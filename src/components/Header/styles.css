@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+
+
+body {
+  height:100vh;
+  margin:0;
+  font-size:20px;
+  font-family:"Arvo", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+}
+.section-1 h2{
+  color:#93278f;
+  font-size: 60px;
+}
+
+.pimg1, .pimg2, .pimg3{
+  position:relative;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+
+.pimg1{
+  background-image:url('../../assents/img/image1.jpg');
+  height:100%;
+}
+
+
+.pimg2{
+  background-image:url('../../assents/img/image2.jpg');
+  min-height:400px;
+  opacity: 0.90;
+}
+
+.pimg3{
+  background-image:url('../../assents/img/image3.jpg');
+  min-height:400px;
+  opacity: 0.90;
+}
+
+.ptext img{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section{
+  text-align:center;
+  padding:50px 80px;
+}
+
+.section-1{
+  background-color:#f1c411;
+  color:#666;
+}
+
+.section-2{
+  background-color:#93278f;
+  color:#ddd;
+}
+
+.section-3{
+  background-color:#f1c411;
+  color:#ddd;
+}
+
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext .border{
+  background-color:#111;
+  color:#fff;
+  padding:20px;
+}
+
+.ptext .border.trans{
+  background-color:transparent;
+}
+
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3{
+    background-attachment:scroll;
+  }
+}
