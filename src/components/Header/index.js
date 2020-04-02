@@ -15,7 +15,7 @@ const Header = () =>
   <section className="section section-1">
     <h2 className="purple">VIVA!</h2>
     <p>
-    Sua agência de marketing 360º
+      Sua agência de marketing 360º
     </p>
   </section>
 
@@ -45,8 +45,7 @@ const Header = () =>
   <section className="section section-3">
     <h2>conteudo</h2>
     <p>
-    ALGUMA COISA ALGUMA COISA ALGUMA COISA ALGUMA COISA ALGUMA COISA ALGUMA COISA ALGUMA COISA ALGUMA COISA ALGUMA COISA
-
+      ALGUMA COISA ALGUMA COISA ALGUMA COISA ALGUMA COISA ALGUMA COISA ALGUMA COISA ALGUMA COISA ALGUMA COISA ALGUMA COISA
     </p>
   </section>
 
