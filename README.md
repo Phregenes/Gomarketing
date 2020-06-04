@@ -1,4 +1,4 @@
-### Go Marketing
+# Go Marketing
 
 In the project directory, you can run:
 
