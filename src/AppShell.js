@@ -1,9 +1,9 @@
 import React, { component } from 'react';
 import { Switch, Route, Link } from 'react-router-dom';
 
-import View1 from './pages/Home/index';
-import View2 from './pages/Contact/View2';
-import View3 from './pages/About/View3';
+import View1 from './pages/Home';
+import View2 from './pages/Contact';
+import View3 from './pages/About';
 
 function AppShell() {
   return (
