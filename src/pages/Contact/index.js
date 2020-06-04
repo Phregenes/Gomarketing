@@ -1,11 +1,11 @@
 import React from 'react';
 
-const View2 = () => {
+const Contact = () => {
   return (
-    <div className="App">
+    <div className="view2">
       <h2>view 2</h2>
     </div>
   );
 }
 
-export default View2;
+export default Contact;

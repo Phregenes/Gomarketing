@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AppShell from './AppShell';
+import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
   <BrowserRouter>
-    <AppShell />
+    <App />
   </BrowserRouter>,
 document.getElementById('root')
 );

@@ -3,7 +3,7 @@ import './styles.css';
 
 import logo from '../../assents/img/logo.png';
 
-const Header = () => 
+const Home = () => 
 
 <body>
   <div className="pimg1">
@@ -58,4 +58,4 @@ const Header = () =>
   </div>
 </body>
 
-export default Header;
+export default Home;

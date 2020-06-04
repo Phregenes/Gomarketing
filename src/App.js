@@ -5,9 +5,9 @@ import View1 from './pages/Home';
 import View2 from './pages/Contact';
 import View3 from './pages/About';
 
-function AppShell() {
+function App() {
   return (
-    <div className="AppShell">
+    <div className="App">
       <div className="App">
         <header>
           <Link to="/home"> Home </Link> 
@@ -27,4 +27,4 @@ function AppShell() {
   );
 }
 
-export default AppShell;
+export default App;
