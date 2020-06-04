@@ -8,7 +8,7 @@ const Header = () =>
 <body>
   <div className="pimg1">
     <div className="ptext">
-        <img src={logo}/>
+      <img src={logo}/>
     </div>
   </div>
 
@@ -28,7 +28,7 @@ const Header = () =>
   </div>
 
   <section className="section section-2">
-    <h2>LOJAS DE CARROS</h2>
+    <h2>Conteudo</h2>
     <p>
       ALGUMA COISA ALGUMA COISA ALGUMA COISA ALGUMA COISA ALGUMA COISA ALGUMA COISA ALGUMA COISA ALGUMA COISA ALGUMA COISA
     </p>
@@ -43,7 +43,7 @@ const Header = () =>
   </div>
 
   <section className="section section-3">
-    <h2>conteudo</h2>
+    <h2>Conteudo</h2>
     <p>
       ALGUMA COISA ALGUMA COISA ALGUMA COISA ALGUMA COISA ALGUMA COISA ALGUMA COISA ALGUMA COISA ALGUMA COISA ALGUMA COISA
     </p>
